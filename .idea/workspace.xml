@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f6070ae-df2d-4f89-9c12-234017a31b64" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jAbdJmyFzjjkheKk5uhVmfw6Hi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="autotest" type="Python.DjangoServer" factoryName="Django server">
+      <module name="autotest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="autotest.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f6070ae-df2d-4f89-9c12-234017a31b64" name="Default Changelist" comment="" />
+      <created>1603249928554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603249928554</updated>
+      <workItem from="1603249930745" duration="9058000" />
+      <workItem from="1603332823132" duration="10912000" />
+      <workItem from="1603419232679" duration="12368000" />
+      <workItem from="1603682890631" duration="1707000" />
+      <workItem from="1603765294017" duration="1154000" />
+      <workItem from="1603851205477" duration="597000" />
+      <workItem from="1603937720228" duration="479000" />
+      <workItem from="1604024121113" duration="478000" />
+      <workItem from="1604282561500" duration="438000" />
+      <workItem from="1604308091535" duration="468000" />
+      <workItem from="1604391051606" duration="497000" />
+      <workItem from="1604456768205" duration="773000" />
+      <workItem from="1604543305979" duration="696000" />
+      <workItem from="1604570340783" duration="501000" />
+      <workItem from="1604628344512" duration="566000" />
+      <workItem from="1604632108896" duration="1671000" />
+      <workItem from="1604914256728" duration="290000" />
+      <workItem from="1605060989995" duration="476000" />
+      <workItem from="1605147326537" duration="1158000" />
+      <workItem from="1605491187744" duration="1410000" />
+      <workItem from="1605579705319" duration="809000" />
+      <workItem from="1605666251033" duration="161000" />
+      <workItem from="1605752367615" duration="472000" />
+      <workItem from="1605839229407" duration="460000" />
+      <workItem from="1605842578625" duration="528000" />
+      <workItem from="1606097963271" duration="728000" />
+      <workItem from="1606185007489" duration="1286000" />
+      <workItem from="1606270745614" duration="5767000" />
+      <workItem from="1606377927457" duration="9953000" />
+      <workItem from="1606444708554" duration="4115000" />
+      <workItem from="1606702331767" duration="598000" />
+      <workItem from="1606704086593" duration="532000" />
+      <workItem from="1606788614448" duration="550000" />
+      <workItem from="1606875325228" duration="486000" />
+      <workItem from="1606876472641" duration="1104000" />
+      <workItem from="1606894286802" duration="376000" />
+      <workItem from="1606961461784" duration="1148000" />
+      <workItem from="1607048630923" duration="343000" />
+      <workItem from="1607049237345" duration="485000" />
+      <workItem from="1607308218249" duration="365000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1606389374958">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.827/1440.-81.1920.1057@0.23.1440.827" timestamp="1606389374958" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.827/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1603798728632" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603445861717" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1606389374957">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.827/1440.-81.1920.1057@0.23.1440.827" timestamp="1606389374957" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.827/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1603798728631" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603445861716" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1606389374956">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.827/1440.-81.1920.1057@0.23.1440.827" timestamp="1606389374956" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.827/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1603798728631" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603445861716" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1606389374958">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.827/1440.-81.1920.1057@0.23.1440.827" timestamp="1606389374958" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.827/1440.-81.1920.1057@1440.-81.1920.1057" timestamp="1603798728632" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603445861717" />
+  </component>
+</project>

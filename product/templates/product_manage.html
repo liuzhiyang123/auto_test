@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+{% endblock %}
+{% block main %}
+<nav class="navbar navbar-expand-sm bg-dar navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">&nbsp;</a>
+        <ul class="nav justify-content-center">
+        </ul>
+        <ul class="nav justify-content-end">
+            <li class="nav-link"><a href="#">{{ user }}</a></li>
+            <li class="nav-link"><a  href="{% url 'logout' %}">退出</a></li>
+        </ul>
+    </div>
+</nav>
+<!--产品列表-->
+<div class="row" style="padding-top: 20px">
+    <div class="col-md-11">
+        <table class="table table-striped">
+            <thead>
+            <tr><td>&nbsp;</td></tr>
+            <tr>
+                <th>ID</th>
+                <th>产品名称</th>
+                <th>产品描述</th>
+                <th>产品负责人</th>
+                <th>创建时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for prodcut in products %}
+                <tr>
+                    <td>{{ prodcut.id }}</td>
+                    <td>{{ prodcut.productname }}</td>
+                    <td>{{ prodcut.productdesc }}</td>
+                    <td>{{ prodcut.producter }}</td>
+                    <td>{{ prodcut.create_time }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+

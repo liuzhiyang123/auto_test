@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+    {% block title %}
+        <title>Login</title>
+    {% endblock %}
+
+{#    <style type="text/css">#}
+{#        body{#}
+{#            text-align: center;#}
+{#            font-size: 14px;#}
+{#        }#}
+{#        #login_menu{#}
+{#            width:300px;#}
+{#            margin:100px auto;#}
+{#        }#}
+{#        .login{#}
+{#            margin:10px auto;#}
+{#            width:100%;#}
+{#            height: 30px;#}
+{#            font-size: 20px;#}
+{#        }#}
+{#        input{#}
+{#            height: 100%;#}
+{#            font-size: 20px;#}
+{#            vertical-align: center;#}
+{#        }#}
+{#        #submit{#}
+{#            width:280px;#}
+{#            height: 100%;#}
+{#            font-size: 20px;#}
+{#        }#}
+{#    </style>#}
+
+{% block main %}
+<div id="login_menu">
+       <h1>login</h1>
+        <form method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            <div class="login">
+                <label>&nbsp;&nbsp;用户名:<input name="username" type="text" placeholder="请输入用户名"></label>
+
+            </div>
+            <div class="login">
+                <label>&nbsp;&nbsp;密 &nbsp;&nbsp;码:<input name="password" type="password" placeholder="请输入密码"></label>
+                <br>{{ error }}
+            </div>
+            <div class="login">
+                <label>&nbsp;&nbsp;<button id="submit" type="submit">提交</button></label>
+
+            </div>
+
+        </form>
+    </div>
+{% endblock %}
